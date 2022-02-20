@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <h1>Aryan Kothari component library</h1>
@@ -22,30 +23,30 @@
     <h2>@container</h2>
 
     <h3>Fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
     <h3>Center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
     <hr>
 
     <h2>@links</h2>
    
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
     <hr>
 
     <h2>@lists</h2>
     
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="list">
         <li>Item one</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
     <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline"> Inline Item Three</li>
     </ul>
     <h3>Ordered List</h3>
     <ol>
@@ -54,7 +55,7 @@
         <li>Inline Item Three</li>
     </ol>
     <h3>Reversed Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>Inline Item one</li>
         <li>Inline Item Two</li>
         <li>Inline Item Three</li>
