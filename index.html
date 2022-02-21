@@ -64,17 +64,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>Name</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="nav-name">Name</div>
+        <ul class="nav-right-align">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
@@ -82,36 +82,46 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="Hero.svg">
-        <h1>Heading inside hero</h1>
+    <header class="header">
+        <img class="header-img" src="Hero.svg">
+        <h1 class="header-text">Heading inside <span class="header-text-color">hero</span></h1>
     </header>
     <hr>
 
     <h2>@section</h2>
 
-    <section>
-        <h3>White section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>White section</h1>
+            <p>This will have white background</p>
+        </div>
     </section>
 
-    <section>
-        <h3>Off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section section-offwhite">
+        <div class="container container-center">
+            <h1>Off white section</h1>
+            <p>This will have gray background</p>
+        </div>
     </section>
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
+    <footer class="footer">
         <div>Small footer heading</div>
-        <ul>
-            <li>Footer Item one</li>
-            <li>Footer Item Two</li>
-            <li>Footer Item Three</li>
+        <ul class="list">
+            <li class="list-item-inline">
+                <a href="/" class="link">Footer Item one</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Footer Item Two</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Footer Item Three</a>
+            </li>
         </ul>
     </footer>
     <hr>
-    
+
 </body>
 </html>

@@ -2,10 +2,14 @@
 
 :root {
     --primary-color: #1d4ed8;
+    --offwhite: #f3f4f6;
+    --dark-grey: #6b7280;
+    --primary-font: 'Roboto', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
+    margin: 0px;
 }
 
 hr {
@@ -45,4 +49,76 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.nav-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-right-align {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.header {
+    padding: 2rem;
+}
+
+.header-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header-text {
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+.header-text-color {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-offwhite {
+    background-color: var(--offwhite);
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1.5rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
